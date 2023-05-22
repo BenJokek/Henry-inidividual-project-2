@@ -38,7 +38,7 @@ In order to find meaningful correlations, two different datasets were used. One 
 
 Result (total flights by year):
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/72b5c5e3-313c-463a-ad6b-5f120b3ea218/Untitled.png)
+![Untitled](./img/Untitled.png)
 
 All the steps helped to clean and preprocess the data, making it ready for further analysis and exploration.
 
@@ -54,27 +54,26 @@ What was the deadliest year for plane crashes? **1972.** This year witnessed 7
 
 ## ****Yearly Trend****
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95643a3b-3570-41f1-8cac-12e383e68c8b/Untitled.png)
-
+![Untitled](./img/Untitled(1).png)
 We can see a gradual increase in the number of crashes from 1908 (with some lateral trend) and a dramatic decrease in recent years. The year 1972 was the deadliest year with the highest number of fatalities.
 
 ## **Monthly, Weekly and Hourly Trend**
 
 There is no definite pattern in the monthly trend, but the number of crashes tends to be a little higher during winter seasons. Respecting the hours, at early hours seem to be less crashes.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/40eaeb8f-8690-4e5d-990c-09fbdc559807/Untitled.png)
+![Untitled](./img/Untitled(2).png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a98be111-2cc9-4382-b294-41b0c0176d16/Untitled.png)
+![Untitled](./img/Untitled(3).png)
 
 ## Military vs non-military crashes
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ddb5a35-8cf6-42e8-a5bd-7e15fa2ea8ab/Untitled.png)
+![Untitled](./img/Untitled(4).png)
 
 Seems to be a high number of military crashes in the 40s, I suppose because the World War 2.
 
 ## Number of people involved
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9fbc630-0e24-4d73-98e3-5241f3b56265/Untitled.png)
+![Untitled](./img/Untitled(5).png)
 
 This looks scary. The number of fatalities is high compared with the total aboard. 
 
@@ -84,29 +83,29 @@ So, the dataset considers "total aboards" from accidents... But what about those
 
 I'll use a dataset from the World Bank ([https://data.worldbank.org/indicator/IS.AIR.DPRT](https://data.worldbank.org/indicator/IS.AIR.DPRT?end=2016&start=1970&view=chart)) to get to the bottom of the matter.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04df6485-74d9-45b5-a190-dd55094df03b/Untitled.png)
+![Untitled](./img/Untitled(6).png)
 
 From this plot we can see that trend actually goes down which was maybe not so obvious from the other plot. Let's put line with ratio and number of deaths on one plot.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59c08353-7d42-4eab-a7e1-ab0f19668cfd/Untitled.png)
+![Untitled](./img/Untitled(7).png)
 
 ## **Operator**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/061b6ad3-618b-4f33-ac82-a00594ee1339/Untitled.png)
+![Untitled](./img/Untitled(8).png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e75fa74-8ec5-4026-a49c-d87385bb0fd8/Untitled.png)
+![Untitled](./img/Untitled(9).png)
 
 These plots show that among commercial airlines, Russian Airlines, Aeroflot has a record as the airline with the most crashes, 253 (with 8802 fatalities), followed by 73 crashes from Air France (with 3395 fatalities). Aeroflot is one of the largest air carriers in the world and presents a good example of rapid innovative development. Their innovation program aims at increasing safety. As a result, Aeroflot has significantly improved their flight safety in the past few years. 253 crashes, however, are hard to ignore. One of the reasons why Aeroflot has the highest frequency of crashes was the collapse of the country's aircraft manufacturing industry, which caused the Russian airlines to rely on the old aircraft that they had been using for decades. 
 
 Before the 2022 Russian invasion of Ukraine, the airline flew to 146 destinations in 52 countries. The number of destinations was significantly reduced after many countries banned Russian aircraft.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aad04d36-912a-4542-84cc-05581d1a5387/Untitled.png)
+![Untitled](./img/Untitled(10).png)
 
 ## TYPES
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0a11e3dc-e421-422a-b1a2-e17eeb542606/Untitled.png)
+![Untitled](./img/Untitled(11).png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/854b91e1-369b-4d57-9776-a75fbeda21b9/Untitled.png)
+![Untitled](./img/Untitled(12).png)
 
 In terms of **manufacturers models**, the Douglas DC-3 planes have been involved in 330 crashes. Most of these crashes were concentrated in the 15–20 years following World War II. However, DC-3 was considered to be a very rugged plane and to be the most advanced of its time, and was built decades before technological progress in safety to air travel.
 
